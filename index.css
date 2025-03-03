@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+body{
+ font-family: "Playwrite IT Moderna", cursive;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+     font-weight: 500;
+     background-color: rgb(238, 254, 222);
+     margin: 0px;
+}
+table, th, td{
+ border: 1px solid;
+}
+th, td{
+ padding: 10px;
+}
+ .inline {
+     display: inline;
+     background: yellow;
+     border: 1px solid black;
+     padding: 20px 40px;
+ }
+ .block{
+
+     display: block;
+     background: yellow;
+     border: 1px solid black;
+     padding: 20px 40px;
+     width: 80px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .divBlock{
+     margin-top: 50px;
+ }
+ .divInlineBlock{
+     margin-top: 50px;
+ }
+ .inlineBlock{
+     display: inline-block;
+     background: yellow;
+     border: 1px solid black;
+     padding: 20px 40px;
+     width: 80px;
+     height: 30px;
+     text-align: center;
+ }
+ .box{
+     background: gray;
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+     font-size: 20px;
+     text-align: center;
+ }
+ .box-2{
+     background: orangered;
+     position: relative;
+     top: 30px;
+     left: 50px;
+ }
+
+ /* postion ab */
+ .box4{
+     background: green;
+     display: flex;
+     width: 400px;
+     height: 400px;
+     margin-top: 80px;
+     color: white;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     font-size: 20px;
+     position: relative;
+     border-radius: 20px;
+ }
+ .box5{
+     background-color: rgb(255, 255, 255);
+     color: green;
+     padding: 30px;
+     border-radius: 20px;
+     position: absolute;
+     top: 30px;
+     left: 30px;
+ }
+ .upIcon{
+     background-color: red;
+     padding-left: 22px;
+     padding-right: 22px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border-radius: 50%;
+     font-size: 40px;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+ }
+ table{
+   margin-top: 100px;
+ }
+ /* zindex */
+ .header{
+     background: violet;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     width: 100%;
+     position: fixed;
+     z-index: 999;
+     top: 0;
+ }

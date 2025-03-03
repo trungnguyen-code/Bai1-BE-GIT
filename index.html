@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="11">
+                    Hàng 1 Cột 1
+                </td>
+                <td>
+                    hàng1 cột2
+                </td>
+                <td colspan="3">
+                    hàng1 cột3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    hàng2 cột2
+                </td>
+                <td colspan="3">
+                    hàng2 cột3
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="4">
+                    hàng3 cột2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    hàng4 cột2
+                </td>
+                <td colspan="3">
+                    hàng4 cột3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    hàng5 cột2
+                </td>
+                <td colspan="3">
+                    hàng5 cột3
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    hàng6 cột2
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    hàng7 cột2
+                </td>
+                <td>
+                    hàng7 cột3
+                </td>
+                <td>
+                    hàng7 cột4
+                </td>
+                <td>
+                    hàng7cột5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    hàng8 cột2
+                </td>
+                <td>
+                    hàng8 cột3
+                </td>
+                <td>
+                    hàng8 cột4
+                </td>
+                <td>
+                    hàng8 cột5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    hàng9 cột2
+                </td>
+                <td>
+                    hàng9 cột3
+                </td>
+                <td>
+                    hàng9 cột4
+                </td>
+                <td>
+                    hàng9 cột5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    hàng10 cột2
+                </td>
+                <td>
+                    hàng10 cột3
+                </td>
+                <td>
+                    hàng10 cột4
+                </td>
+                <td>
+                    hàng10 cột5
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    hàng11 cột2
+                </td>
+                <td>
+                    hàng11 cột5
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
+    <ol>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ol>
+    <ol type="I">
+        <li>Mục 1</li>
+            <ol type="A">
+                <li>Mục 1 - 1</li>
+                <li>Mục 2 - 2</li>
+                <li>Mục 3 - 3</li>
+            </ol>
+        <li>Mục 2</li>
+            <ol type="A">
+                <li>Mục 2 - 1</li>
+                <li>Mục 2 - 2</li>
+                <li>Mục 2 - 3</li>
+                <li>Mục 2 - 4</li>
+                    <ol type="i">
+                        <li>Mục 2 - 4 - 1</li>
+                        <li>Mục 2 - 4 - 2</li>
+                        <li>Mục 2 - 4 - 3</li>
+                    </ol>
+            </ol>
+        <li>Mục 3</li>
+        <li>Mục 4</li>
+        <li>Mục 5</li>
+    </ol>
+<!-- From -->
+    <form action="https://www.w3schools.com/action_page.php" target="_blank"
+    method="post" autocomplete="on">
+    <!-- novalidate: không cần đúng định dạng  -->
+    <!-- autocomplete: tự dộng gợi ý giá đã điền -->
+    <!-- Mặc định method là GET -->
+     <!-- for = id : tự động focus -->
+        <label for="fullName">Ho Va Ten:</label> <br>
+        <input type="text" id="fullName" name="fullName"> <br>
+        <label for="password">Mat Khau:</label> <br>
+        <input type="password" id="password" name="passWord"> <br> 
+        <label for="color">Chọn màu sắc</label> <br>
+        <select name="color" id="color">
+            <option value="green" selected>-- Lựa chọn --</option>
+            <option value="green">Xanh</option>
+            <option value="red">Đỏ</option>
+            <option value="yellow">Vàng</option>
+        </select>
+        <br>
+        <label for="ghiChu">Ghi chú</label> <br>
+        <textarea id="ghiChu" name="ghiChu"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Gửi"> <br>
+    </form>
+<!-- Thuộc tính display -->
+ <!-- Mặc định span là inline  -->
+     <p class="inline">inline1</p>
+     <p class="inline">inline2</p>
+     <p class="inline">inline3</p>
+     <div class="divBlock">
+        <p class="block">inline1</p>
+        <p class="block">inline2</p>
+        <p class="block">inline3</p>
+     </div>
+     <div class="divInlineBlock">
+        <p class="inlineBlock">inline1</p>
+        <p class="inlineBlock">inline2</p>
+        <p class="inlineBlock">inline3</p>
+     </div>
+     <!-- Posstion -->
+      <div>
+        <p class="box">Box1</p>
+        <p class="box box-2">Box2</p>
+        <p class="box">Box3</p>
+      </div>
+      <!-- Ab -->
+      <div class="box4">Box 4
+        <div class="box5">Box5</div>
+      </div>
+      <!-- fix -->
+       <div><p><i class="fa-solid fa-up-long upIcon"></i></p></div>
+       <!-- zindex -->
+        <div class="header">Hello</div>
+</body>
+</html>
